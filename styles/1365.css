@@ -1,0 +1,31 @@
+@media(min-width:1366px){
+
+.headerinner{
+   width: 980px;
+}
+
+.menu-title-inner{
+     width: 980px;
+}
+
+.categoriesinner {
+    width: 980px;
+}
+
+.productsinner {
+    width: 980px;
+}
+
+.brandinner {
+    width: 980px;
+}
+
+.newsinner {
+    width: 980px;
+}
+
+.footerinner {
+    width: 980px;
+}
+  
+}

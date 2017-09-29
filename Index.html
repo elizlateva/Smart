@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/480.css" />
+    <link rel="stylesheet" href="styles/768.css" />
+    <link rel="stylesheet" href="styles/1024.css" />
+    <link rel="stylesheet" href="styles/1365.css" />
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="slick/slick.min.js"></script>
+
+    <script src="scripts/script.js"></script>
+
+    <title>Smart</title>
+</head>
+
+<body>
+    <header>
+        <div class="headerupper">
+            <div class="headerinner">
+                <div class="upperleft">
+                    <div class="links">
+                        <ul>
+                            <li class="register"><a href="#">Register</a></li>
+                            <li class="login"><a href="#"> Log in</a></li>
+                            <li class="wishlist"><a href="#"><span class="wishlist-icon">0</span> Wishlist</a></li>
+                        </ul>
+                    </div>
+                    <div class="shoppingcart">
+                        <a href="#">Shopping Cart</a>
+                        <span class="shoppingcart-icon">0</span>
+                        <span class="shoppingcart-text">You have no items in your shopping cart.</span>
+                    </div>
+                </div>
+                <div class="upperright">
+                    <select class="currancy">
+                <option value="USD"selected>US Dollar</option>
+                <option value="EUR">Euro</option>   
+            </select>
+                    <select class="language">
+                <option value="EN"selected>English</option>
+                <option value="French">French</option>  
+                <option value="Spanish">Spanish</option>  
+                <option value="Italian">Italian</option>   
+            </select>
+                </div>
+            </div>
+        </div>
+        <div class="headerlower">
+            <div class="headerinner">
+                <div class="headerlower-logo">
+                    <img src="images/Logo-img.png">
+                </div>
+                <div class="headerlower-search">
+                    <form class="search-box">
+                        <input class="search-form" type="search" name="Search" placeholder="Search store">
+                        <select class="category-select">
+                <option value ="All" selected> All </option>
+                <option value="Category"> Category </option>
+            </select>
+                        <input class="search-submit" type="submit" name="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="menu-title-inner">
+            <div class="menu-title">
+                <span onclick="openNav()">MENU</span>
+            </div>
+            <div class="menu-responsive">
+                <div class="menu-close-inner">
+                    <div class="menu-close" onclick="closeNav()">
+                        <span>Close</span>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">Home Page</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Manufacturers</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="#">Home Page</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Manufacturers</a></li>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="slider">
+            <div class="direction-buttons">
+                <a class="button-previous" onclick="plusDivs(-1)">previous</a>
+                <a class="button-next" onclick="plusDivs(+1)">next</a>
+            </div>
+            <img class="slide" src="images/0000443.jpeg" style="width:100%; display:block;" />
+            <img class="slide" src="images/0000444.jpeg" style="width:100%; display:none;" />
+        </div>
+
+        <div class="categories">
+            <div class="categories-box-wrapper">
+                <div class="categoriesinner">
+                    <div class="categories-box">
+                        <div class="cat-title">
+                            <h2><a href="#">Smartphones</a></h2>
+                        </div>
+                        <div class="cat-picture">
+                            <img src="images/smartphones.jpeg" />
+                        </div>
+                    </div>
+                    <div class="categories-box">
+                        <div class="cat-title">
+                            <h2><a href="#">Tablets</a></h2>
+                        </div>
+                        <div class="cat-picture">
+                            <img src="images/tablets.jpeg" />
+                        </div>
+                    </div>
+                    <div class="categories-box">
+                        <div class="cat-title">
+                            <h2><a href="#">Notebooks</a></h2>
+                        </div>
+                        <div class="cat-picture">
+                            <img src="images/notebooks.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products">
+            <div class="productsinner">
+                <div class="products-title">
+                    <h2><a href="#">Featured Products</a></h2>
+                </div>
+                <div class="product-box">
+                    <div class="product-box-inner">
+                        <div class="product-box-title">
+                            <h2><a href="#">Acer Iconia A-1 830</a></h2>
+                        </div>
+                        <div class="product-box-label-wrapper">
+                            <div class="product-box-label">
+                                <span>Sale</span>
+                            </div>
+                            <div class="product-box-image">
+                                <img src="images/acer-iconia-a-1-830_280.jpeg">
+                            </div>
+                        </div>
+                        <div class="product-box-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                        <div class="product-box-price">
+                            <p>From $354.00</p>
+                        </div>
+                        <div class="product-box-button">
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-box-inner">
+                        <div class="product-box-title">
+                            <h2><a href="#">iPad mini</a></h2>
+                        </div>
+                        <div class="product-box-image">
+                            <img src="images/ipad-mini_280.jpeg" />
+                        </div>
+                        <div class="product-box-description">
+                            <p> Lorem Ipsum is simply dummy text of the printing and type setting industry. </p>
+                        </div>
+                        <div class="product-box-price">
+                            <p>$354.00</p>
+                        </div>
+                        <div class="product-box-button">
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-box-inner">
+                        <div class="product-box-title">
+                            <h2><a href="#">Google Nexus 8</a></h2>
+                        </div>
+                        <div class="product-box-image">
+                            <img src="images/google-nexus-8_280.jpeg" />
+                        </div>
+                        <div class="product-box-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                        <div class="product-box-price">
+                            <p>$354.00</p>
+                        </div>
+                        <div class="product-box-button">
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-box-inner">
+                        <div class="product-box-title">
+                            <h2><a href="#">iPad air</a></h2>
+                        </div>
+                        <div class="product-box-image">
+                            <img src="images/ipad-air_280.jpeg" />
+                        </div>
+                        <div class="product-box-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                        <div class="product-box-price">
+                            <p>$354.00</p>
+                        </div>
+                        <div class="product-box-button">
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-box-inner">
+                        <div class="product-box-title">
+                            <h2><a href="#">Google Nexus 5</a></h2>
+                        </div>
+                        <div class="product-box-image">
+                            <img src="images/google-nexus-8_280.jpeg" />
+                        </div>
+                        <div class="product-box-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                        <div class="product-box-price">
+                            <p>$354.00</p>
+                        </div>
+                        <div class="product-box-button">
+                            <button type="button">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-box-inner">
+                        <div class="product-box-title">
+                            <h2><a href="#">iPhone 5S</a></h2>
+                        </div>
+                        <div class="product-box-image">
+                            <img src="images/iphone-5s_280.jpeg" />
+                        </div>
+                        <div class="product-box-description">
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. </p>
+                        </div>
+                        <div class="product-box-price">
+                            <p>$354.00</p>
+                        </div>
+                        <div class="product-box-button">
+                            <button type="button">Add to cart</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="brand-logos">
+            <div class="brandinner">
+                <div class="brslider">
+                    <div class="brslide"> <img src="images/apple_250.png" /> </div>
+                    <div class="brslide"> <img src="images/samsung_250.png" /></div>
+                    <div class="brslide"> <img src="images/lenovo_250.png" /></div>
+                    <div class="brslide"> <img src="images/nokia_250.png" /> </div>
+                    <div class="brslide"> <img src="images/asus_250.png" /> </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="news">
+            <div class="newsinner">
+                <div class="news-title">
+                    <h2>News</h2>
+                </div>
+                <div class="news-box">
+                    <div class="news-box-inner">
+                        <div class="news-box-title">
+                            <h3>News</h3>
+                            <span class="news-box-date">-Thursday, February 20,2014</span>
+                        </div>
+                        <div class="news-box-content">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
+                                autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor
+                                cum soluta nobis eleifend option </p>
+                        </div>
+                        <div class="news-box-detiles">
+                            <button>details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-box">
+                    <div class="news-box-inner">
+                        <div class="news-box-title">
+                            <h3>News</h3>
+                            <span class="news-box-date">-Thursday, February 20,2014</span>
+                        </div>
+                        <div class="news-box-content">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
+                                autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                                dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                                praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor
+                                cum soluta nobis eleifend option </p>
+                        </div>
+                        <div class="news-box-detiles">
+                            <button>details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-archive">
+                    <div class="news-archive-inner">
+                        <span><a href="#">View News Archive</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-upper">
+            <div class="footerinner">
+                <div class="topic">
+                    <div class="title">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                            tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+                            eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.tation ullamcorper suscipit
+                            lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                            in vulputate velit esse molestie consequat. </p>
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class="title">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="contact-list">
+                        <ul class="contacts">
+                            <li class="icon-phone"><span>+222 (Phone) 987654</span></li>
+                            <li class="icon-mobile"><span>+111 (Mobile) 012345</span></li>
+                            <li class="icon-email"><span>support@beautystore.com</span></li>
+                            <li class="icon-skype"><span>some-skype-name</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topic">
+                    <div class="title">
+                        <h2>Follow Us</h2>
+                    </div>
+                    <div class="social-wrapper">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="#"><img src="images/icon-fb.png">fb</a></li>
+                                <li><a href="#"><img src="images/icon-twitter.png">tw</a></li>
+                                <li><a href="#"><img src="images/icon-google.png">google</a> </li>
+                                <li> <a href="#"><img src="images/icon-pinterest.png">pin</a> </li>
+                                <li><a href="#"><img src="images/icon-youtube.png">yt</a></li>
+                                <li> <a href="#"><img src="images/icon-rss.png">rss</a></li>
+                            </ul>
+                        </div>
+                        <div class="subscribe">
+                            <div class="subscribe-title">
+                                <h3>Newsletter</h3>
+                            </div>
+                            <div class="subscribe-box">
+                                <form class="subscribe-email">
+                                    <input class="enter-email" type="text" placeholder="Enter your email here..." name="email">
+                                    <input class="email-submit" type="submit" name="submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="footerinner">
+                <div class="info-box">
+                    <div class="info-title">
+                        <h3>Legal Information</h3>
+                    </div>
+                    <div class="info-wrapper">
+                        <ul>
+                            <li><a href="#">Privacy Notice</a></li>
+                            <li><a href="#">Conditions of Use</a></li>
+                            <li><a href="#">Secure Payment</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="info-title">
+                        <h3>Shipping & Returns</h3>
+                    </div>
+                    <div class="info-wrapper">
+                        <ul>
+                            <li><a href="#">International Shipping</a></li>
+                            <li><a href="#">Shipping & Returns</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="info-title">
+                        <h3>Affiliate & Extras</h3>
+                    </div>
+                    <div class="info-wrapper">
+                        <ul>
+                            <li class="brands"><a href="#">Brands</a></li>
+                            <li><a href="#">Gift Vouchers</a></li>
+                            <li><a href="#">Become Affiliate</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div class="info-title">
+                        <h3>Service & Support</h3>
+                    </div>
+                    <div class="info-wrapper">
+                        <ul>
+                            <li><a href="#">Customer Assistance</a></li>
+                            <li><a href="#">Frequently Asked Questions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-lower">
+            <div class="footerinner">
+                <div class="left">
+                    <span>© Copyright 2012 Jewelery Store. All Rights Reserved.</span>
+                </div>
+                <div class="middle">
+                    <span>Designed by <u>Nop-Templates.</u></span>
+                </div>
+                <div class="right">
+                    <span> Powered by <u>nopCommerce.</u></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

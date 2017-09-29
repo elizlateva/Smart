@@ -1,0 +1,71 @@
+@media(min-width:481px){
+
+.headerinner{
+   max-width: 95%;
+}
+
+.direction-buttons a{
+    top:27%;
+}
+
+.categoriesinner {
+    text-align: left;
+    max-width: 95%;
+}
+
+.categories-box{
+    width: 49%;
+    display: inline-block;
+    margin: 3px 1px;
+}
+
+.productsinner {
+    width: 95%;
+}
+
+.product-box{
+    display: inline-block;
+    width: 49%;
+}
+
+.brandinner{
+    width: 95%;
+}
+
+.newsinner{
+    width: 95%;
+}
+
+.news-box{
+    display: inline-block;
+    width: 49%;
+}
+
+.news-archive-inner {
+    width: 95%;
+}
+
+.title h2{
+    border-bottom: 1px dotted #55bbee;
+}
+
+.contacts{
+    text-align: center;
+    display: block;
+}
+
+.contact-list li{
+  width: 35%;
+  display: inline-block;
+}
+
+.contacts li span:before{
+   display: block;
+   margin: 0 auto 5px;
+}
+
+.footerinner{
+    width: 95%;
+    margin: 0 auto;
+}
+}

@@ -1,0 +1,124 @@
+@media(min-width:769px){
+
+.headerupper{
+    padding: 10px 0 10px;
+}
+
+.upperleft{
+    padding: 0;
+}
+
+.links{
+    float: left;
+} 
+
+.shoppingcart{
+    float: left;
+    margin: 0 20px;
+}
+
+.upperright{
+    background: none;
+    padding: 0;
+    margin: 1px 0;
+    float: right;
+}
+
+.headerinner:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.direction-buttons a {
+    top:36%;
+}
+
+.headerlower-search{
+    margin: 0 20px 20px 0;
+}
+
+.search-form{
+    width: 300px;
+}
+    
+.category-select{
+    width: 129px;
+}
+
+.categoriesinner{
+    text-align: center;
+}
+
+.categories-box{
+    width: 31%;
+    margin: 3px 6px;
+}
+
+.product-box{
+    width: 32%;
+}
+
+.news-box{
+    display: block;
+    width: 100%;
+}
+
+.news-box-content {
+    display: block;
+}
+
+.news-box-detiles {
+    display: block;
+}
+
+.content{
+    width: 100%;
+}
+
+.info-box{
+    display: inline-block;
+    width: 47%;
+    margin: 0 10px;
+}
+
+.contact-list li {
+    width: 21%;
+}
+
+.enter-email{
+    width: 300px;
+}
+
+.footerinner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footerinner{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.footer-lower span{
+    display: block;
+}
+
+.left{
+    float: left;
+    margin: -5px 0;
+}
+
+.middle{
+    padding: 0;
+    float: right;
+    margin: -5px 0;
+}
+
+.right{
+    float:right;
+    padding: 0 5px;
+    margin: -5px 0;
+}
+}
